@@ -18,10 +18,10 @@ spacing = 2
 padding-right = 5
 module-margin = 4
 
-font-0 = NotoSans-Regular:size=8;2
-font-1 = MaterialIcons:size=10;3
-font-2 = Termsynu:size=8:antialias=false;2
-font-3 = FontAwesome:size=10;2
+font-0 = NotoSans-Regular:size=8;4
+font-1 = MaterialIcons:size=10;6
+font-2 = Termsynu:size=8:antialias=false;4
+font-3 = FontAwesome:size=10;4
 
 modules-left = i3
 modules-right = battery cpu memory volume backlight wireless-network wired-network date powermenu
@@ -80,9 +80,9 @@ bar-empty-foreground = #44
 type = internal/battery
 full-at = 98
 
-format-charging = <animation-charging> <label-charging>
-format-discharging = <bar-capacity> <label-discharging>
-format-full = <bar-capacity> <label-full>
+format-charging = BATT <label-charging>
+format-discharging = BATT <label-discharging>
+format-full = BATT <label-full>
 
 ramp-capacity-0 = 
 ramp-capacity-0-foreground = #bf616a
