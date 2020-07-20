@@ -2,26 +2,28 @@
 fortune | cowsay | lolcat
 
 # Add directory of scripts to PATH
-export PATH="$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
+set PATH "$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
 
 
-# Alias for xbps-* (x*)
-alias xi="sudo xbps-install"
-alias xr="sudo xbps-remove"
-alias xq="xbps-query"
-alias xs="xbps-src"
-alias xsi="sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
-alias xsi-nonfree="sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
+# Abbreviations for xbps-* (x*)
+abbr xi "sudo xbps-install"
+abbr xr "sudo xbps-remove"
+abbr xq "xbps-query"
+abbr xs "xbps-src"
+abbr xsi "sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
+abbr xsi-nonfree "sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
+abbr xsq "ls ~/Downloads/git/void-packages/srcpkgs/ | grep"
 
-# Misc. alias
-alias ls="ls -lhA"
+# Misc. abbreviations
+abbr ls "ls -lhA"
 
-# Alias for config files (cf*)
-alias cfa="vim $HOME/.config/alacritty/alacritty.yml"
-alias cffsh="vim $HOME/.config/fish/config.fish"
-alias cfi="vim $HOME/.config/i3/config"
-alias cfn="vim $HOME/.config/neofetch/config.conf"
-alias cfp="vim $HOME/.config/polybar/config"
-alias cfff="vim $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
-alias cfv="vim $HOME/dotfiles/vim/.vimrc"
-
+# Abbreviations for config files (cf*)
+abbr cfa "vim $HOME/.config/alacritty/alacritty.yml"
+abbr cffsh "vim $HOME/.config/fish/config.fish"
+abbr cfi "vim $HOME/.config/i3/config"
+abbr cfn "vim $HOME/.config/neofetch/config.conf"
+abbr cfp "vim $HOME/.config/polybar/config"
+abbr cfff "vim $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
+abbr cfv "vim $HOME/dotfiles/vim/.vimrc"
+abbr cfr "vim $HOME/dotfiles/rofi/.config/rofi/config.rasi"
+    

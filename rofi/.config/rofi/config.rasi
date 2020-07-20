@@ -34,6 +34,8 @@ mainbox {
 
 listview {
   columns: 1;
+  fixed-height: true;
+  lines: 3;
 }
 
 element {
@@ -54,7 +56,7 @@ inputbar {
 
 prompt {
   enabled: true;
-  font: "SauceCodePro Nerd Font 12";
+  font: "Noto Sans 12";
   padding: 12 0 0 12;
   text-color: @nord-yellow;
 }
