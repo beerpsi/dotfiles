@@ -48,7 +48,7 @@ device-mapper
 dhcpcd
 diffutils
 discord
-dmraid-1.0.0.rc16.3_11
+dmraid
 dnssec-anchors
 dosfstools
 dracut
@@ -212,7 +212,7 @@ libgpgme
 libgudev
 libgusb
 libharfbuzz
-libid3tag-0.15.1b_8
+libid3tag
 libidn2
 libimobiledevice
 libinput
@@ -358,7 +358,7 @@ nss
 nvi
 oniguruma
 openresolv
-openssh-8.3p1_2
+openssh
 opus
 orc
 os-prober
@@ -431,7 +431,7 @@ terminus-font
 thin-provisioning-tools
 tiff
 traceroute
-tzdata-2020a_1
+tzdata
 udisks2
 unicode-emoji
 unzip
