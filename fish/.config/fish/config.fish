@@ -1,3 +1,6 @@
+# Welcome message
+fortune | cowsay | lolcat
+
 # Add directory of scripts to PATH
 export PATH="$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
 
