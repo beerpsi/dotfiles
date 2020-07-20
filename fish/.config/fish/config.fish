@@ -7,6 +7,8 @@ alias xi="sudo xbps-install"
 alias xr="sudo xbps-remove"
 alias xq="xbps-query"
 alias xs="xbps-src"
+alias xsi="sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
+alias xsi-nonfree="sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
 
 # Misc. alias
 alias ls="ls -lhA"
@@ -18,5 +20,5 @@ alias cfi="vim $HOME/.config/i3/config"
 alias cfn="vim $HOME/.config/neofetch/config.conf"
 alias cfp="vim $HOME/.config/polybar/config"
 alias cfff="vim $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
-
+alias cfv="vim $HOME/dotfiles/vim/.vimrc"
 
