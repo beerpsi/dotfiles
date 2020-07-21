@@ -195,7 +195,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 #        urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 #    }
 #}
-exec --no-startup-id "~/dotfiles/scripts/.config/scripts/start_polybar"
+exec --no-startup-id "~/dotfiles/scripts/.config/scripts/start-polybar"
 
 
 # floating windows
