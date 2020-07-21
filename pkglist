@@ -1,6 +1,8 @@
+AlsaMixer.app
 GConf
 NetworkManager
 Thunar
+accountsservice
 acl
 acpid
 adwaita-icon-theme
@@ -8,6 +10,7 @@ alacritty
 alacritty-terminfo
 alsa-lib
 alsa-plugins-pulseaudio
+alsa-utils
 at-spi2-atk
 at-spi2-core
 atk
@@ -19,8 +22,10 @@ base-system
 bash
 binutils
 binutils-doc
+boost
 brotli
 bsdtar
+bspwm
 btrfs-progs
 bzip2
 c-ares
@@ -51,6 +56,7 @@ discord
 dmraid
 dnssec-anchors
 dosfstools
+double-conversion
 dracut
 e2fsprogs
 e2fsprogs-libs
@@ -61,6 +67,10 @@ eudev-libudev
 exo
 expat
 f2fs-tools
+fcitx
+fcitx-configtool
+fcitx-unikey
+fcitx-unikey-qt5
 feh
 file
 file-roller
@@ -114,6 +124,7 @@ gvfs-smb
 gzip
 hicolor-icon-theme
 hsetroot
+htop
 hwids
 i3-gaps
 iana-etc
@@ -151,6 +162,7 @@ libXfont2
 libXi
 libXinerama
 libXmu
+libXpm
 libXrandr
 libXrender
 libXt
@@ -168,6 +180,7 @@ libatomic
 libblkid
 libblockdev
 libbluray
+libboost_program_options1.72
 libbytesize
 libcap
 libcap-ng
@@ -194,6 +207,8 @@ libev
 libevdev
 libevent
 libexif
+libfcitx
+libfcitx-qt5
 libfdisk
 libffi
 libfftw
@@ -223,6 +238,7 @@ libkmod
 libksba
 libldap
 libldns
+liblightdm-gobject
 libllvm10
 libllvm9
 libltdl
@@ -311,6 +327,8 @@ libxshmfence
 libxslt
 libyaml
 libzstd
+lightdm
+lightdm-gtk3-greeter
 linux
 linux-firmware-amd
 linux-firmware-intel
@@ -344,14 +362,17 @@ mobile-broadband-provider-info
 mozjs60
 mpfr
 mtdev
+ncpamixer
 ncurses
 ncurses-base
 ncurses-libs
 neofetch
 nettle
 network-manager-applet
+newsboat
 newt
 nghttp2
+noto-fonts-emoji
 npth
 nspr
 nss
@@ -366,6 +387,7 @@ p11-kit
 pam
 pam-base
 pam-libs
+pamixer
 pango
 pciutils
 perl
@@ -407,6 +429,13 @@ python3-dbus
 python3-evdev
 python3-gobject
 python3-lxml
+python3-pip
+python3-setuptools
+qt5-core
+qt5-dbus
+qt5-gui
+qt5-network
+qt5-widgets
 rofi
 rtkit
 run-parts
@@ -423,14 +452,17 @@ snooze
 speexdsp
 sqlite
 startup-notification
+stfl
 stow
 sudo
+sxhkd
 talloc
 tar
 terminus-font
 thin-provisioning-tools
 tiff
 traceroute
+tslib
 tzdata
 udisks2
 unicode-emoji
@@ -452,6 +484,7 @@ wifi-firmware
 wireless_tools
 wpa_supplicant
 xauth
+xbacklight
 xbps
 xbps-triggers
 xcb-util
@@ -461,6 +494,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
+xclip
 xdg-utils
 xev
 xf86-input-evdev
