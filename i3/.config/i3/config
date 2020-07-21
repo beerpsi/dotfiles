@@ -195,7 +195,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 #        urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 #    }
 #}
-exec --no-startup-id /home/mrlacpeanut/.config/scripts/start_polybar
+exec --no-startup-id "~/dotfiles/scripts/.config/scripts/start_polybar"
 
 
 # floating windows
@@ -247,7 +247,7 @@ exec --no-startup-id "compton -cC"
 exec --no-startup-id nm-applet
 #exec --no-startup-id "firefox --new-window https://discordapp.com/channels/@me"
 # exec --no-startup-id i3-battery-popup -n -m "Yer cunt charg the batteri!"
-
+exec --no-startup-id "~/dotfiles/scripts/.config/scripts/alternating_layouts.py"
 
 # Multimonitor setup
 exec --no-startup-id xrandr --output eDP1 --left-of DP1
@@ -269,4 +269,4 @@ gaps inner 10
 # exec --no-startup-id /home/mrlacepeanut/import_music
 
 # Toggle transparency
-bindsym $mod+Shift+F12 exec ~/.config/scripts/killcompton
+bindsym $mod+Shift+F12 exec ~/dotfiles/scripts/.config/scripts/killcompton
