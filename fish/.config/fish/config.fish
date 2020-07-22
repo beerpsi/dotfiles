@@ -6,16 +6,17 @@ set PATH "$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
 
 
 # Abbreviations for xbps-* (x*)
-abbr xi "sudo xbps-install"
-abbr xr "sudo xbps-remove"
+abbr xi "doas -- xbps-install"
+abbr xr "doas -- xbps-remove"
 abbr xq "xbps-query"
 abbr xs "xbps-src"
-abbr xsi "sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
-abbr xsi-nonfree "sudo xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
+abbr xsi "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
+abbr xsi-nonfree "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
 abbr xsq "ls ~/Downloads/git/void-packages/srcpkgs/ | grep"
 
 # Misc. abbreviations
 abbr ls "ls -lhA"
+abbr doas "doas --"
 
 # Abbreviations for config files (cf*)
 abbr cfa "vim $HOME/.config/alacritty/alacritty.yml"
