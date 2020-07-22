@@ -32,6 +32,9 @@ set encoding=utf8
 " Use Unix as standard filetype
 set ffs=unix,dos,mac
 
+let g:lightline = {
+    \ 'colorscheme': 'nord',
+    \ } 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
