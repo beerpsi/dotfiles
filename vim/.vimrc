@@ -6,13 +6,16 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin(expand('~/.vim/plugged'))
-"" PLUGIN START
-Plug 'arcticicestudio/nord-vim'
-"" PLUGIN END
+    Plug 'arcticicestudio/nord-vim'
+    Plug 'frazrepo/vim-rainbow'
+    Plug 'itchyny/lightline.vim'
 call plug#end()
+
+let g:rainbow_active = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " color and fonts
@@ -52,6 +55,9 @@ set incsearch
 
 " Don't redraw while executing macros
 set lazyredraw
+
+" Don't show mode because we have Lightline
+set noshowmode 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " text, tab, indent
