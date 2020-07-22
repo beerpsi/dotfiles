@@ -27,4 +27,4 @@ abbr cfp "vim $HOME/.config/polybar/config"
 abbr cfff "vim $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
 abbr cfv "vim $HOME/dotfiles/vim/.vimrc"
 abbr cfr "vim $HOME/dotfiles/rofi/.config/rofi/config.rasi"
-    
+abbr cfs "vim $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc"    
