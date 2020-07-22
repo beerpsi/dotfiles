@@ -2,9 +2,9 @@ configuration {
   show-icons: true;
   font: "Noto Sans 10";
   drun-display-format: "{icon} {name}";
-  display-run: "run: ";
+  display-run: "  ";
   display-drun: " ";
-  display-window: "window: ";
+  display-window: "  ";
   modi: "window,run,drun";
 }
 
@@ -33,7 +33,7 @@ mainbox {
 }
 
 listview {
-  columns: 1;
+  columns: 3;
   fixed-height: true;
   lines: 3;
 }
