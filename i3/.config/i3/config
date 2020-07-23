@@ -17,6 +17,7 @@ exec --no-startup-id "compton -cC"
 exec --no-startup-id nm-applet
 exec --no-startup-id "feh --bg-fill ~/.config/wallpaper/polandball_northern_lights.png" 
 exec --no-startup-id sxhkd # non-i3 keybinds will be managed by sxhkd
+exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 #disable acceleration on mouse
 
 ########################################################################
 # i3 user interface
