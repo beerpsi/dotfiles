@@ -18,6 +18,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id "feh --bg-fill ~/.config/wallpaper/polandball_northern_lights.png" 
 exec --no-startup-id sxhkd # non-i3 keybinds will be managed by sxhkd
 exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 #disable acceleration on mouse
+exec --no-startup-id ibus-daemon
+exec --no-startup-id setxkbmap -layout us,apl -option 'grp:caps_toggle'
 
 ########################################################################
 # i3 user interface
@@ -170,10 +172,10 @@ mode "resize" {
     bindsym Right resize grow width 10 px or 10 ppt
     
     # really fine control over the size
-    bindsym j resize shrink width 1 px or 1 ppt
-    bindsym k resize grow height 1 px or 1 ppt
-    bindsym l resize shrink height 1 px or 1 ppt
-    bindsym semicolon resize grow width 1 px or 1 ppt
+    bindsym shift+j resize shrink width 1 px or 1 ppt
+    bindsym shift+k resize grow height 1 px or 1 ppt
+    bindsym shift+l resize shrink height 1 px or 1 ppt
+    bindsym shift+semicolon resize grow width 1 px or 1 ppt
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"
