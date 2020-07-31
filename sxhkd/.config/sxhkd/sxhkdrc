@@ -5,10 +5,8 @@
 # Basic binds
 super + Return
     alacritty
-super + d
-    rofi -location 2 -show run
-super + Tab
-    rofi -location 2 -show window
+super + {d,Tab,u}
+    {rofi -location 2 -show run,rofi -location 2 -show window,rofimoji}
 super + Print
     flameshot gui
 

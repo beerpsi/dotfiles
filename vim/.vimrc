@@ -11,11 +11,9 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin(expand('~/.vim/plugged'))
     Plug 'arcticicestudio/nord-vim'
-    Plug 'frazrepo/vim-rainbow'
     Plug 'itchyny/lightline.vim'
 call plug#end()
 
-let g:rainbow_active = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " color and fonts
@@ -32,6 +30,7 @@ set encoding=utf8
 " Use Unix as standard filetype
 set ffs=unix,dos,mac
 
+" Make lightline uses Nord colorscheme
 let g:lightline = {
     \ 'colorscheme': 'nord',
     \ } 

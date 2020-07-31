@@ -57,6 +57,9 @@ for_window [class="Pavucontrol"] floating enable
 # No borders
 for_window [class="^.*"] border pixel 0
 
+# Force Discord to be in workspace 2 (MSG)
+assign [class="discord"] 2
+
 # gaps
 gaps inner 10
 
