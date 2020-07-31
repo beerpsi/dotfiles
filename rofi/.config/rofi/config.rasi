@@ -6,6 +6,7 @@ configuration {
   display-drun: " ";
   display-window: "  ";
   modi: "window,run,drun";
+  location: 2;
 }
 
 * {
