@@ -12,14 +12,32 @@ set $scripts_dir ~/dotfiles/scripts/.config/scripts
 ########################################################################
 # autostart
 ########################################################################
-exec --no-startup-id "$scripts_dir/start-polybar"
+# Polybar
+exec --no-startup-id "$scripts_dir/start-polybar" 
+
+# Compton (transparency and stuff)
 exec --no-startup-id "compton -cC"
+
+# NetworkManager applet to make network managing easy
 exec --no-startup-id nm-applet
+
+# Wallpaper
 exec --no-startup-id "feh --bg-fill ~/.config/wallpaper/polandball_northern_lights.png" 
-exec --no-startup-id sxhkd # non-i3 keybinds will be managed by sxhkd
-exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 #disable acceleration on mouse
+
+# non-i3 keybinds will be managed by sxhkd
+exec --no-startup-id sxhkd
+
+#disable acceleration on mouse
+exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 
+
+# To type Vietnamese
 exec --no-startup-id ibus-daemon
+
+# To type APL
 exec --no-startup-id setxkbmap -layout us,apl -option 'grp:caps_toggle'
+
+# To get alternating layouts (hsplit, vsplit)
+exec --no-startup-id "$scripts_dir/alternating_layouts.py"
 
 ########################################################################
 # i3 user interface
