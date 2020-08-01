@@ -1,14 +1,28 @@
 #################################################
-# non-bspwm binds
+# non-i3 binds
 #################################################
 
 # Basic binds
+
+## Terminal
 super + Return
     alacritty
+
+## Run application menu, window switcher, emoji menu
 super + {d,Tab,u}
     {rofi -location 2 -show run,rofi -location 2 -show window,rofimoji}
+
+## Screenshot program
 super + Print
     flameshot gui
+
+## Quickly run my preferred programs
+## w: web
+## e: editor
+## m: messaging
+## f: file explorer
+super + o ; {w,e,m,f}
+    {firefox,alacritty -e vim,Discord,Thunar}
 
 # volume control
 XF86AudioRaiseVolume
@@ -56,4 +70,57 @@ XF86AudioPrev
     playerctl previous
    #mocp --previous
 
+#################################################
+# i3 keybinds
+#################################################
+# kill focused window
+super + shift + q
+    i3-msg kill
 
+# Change focus
+super + {h,j,k,l}
+    i3-msg focus {left,down,up,right}
+
+# Move focused window
+super + shift + {h,j,k,l}
+    i3-msg move {left,down,up,right}
+
+# Split in horizontal/vertical orientation
+super + {g,v}
+    i3-msg split {h,v}
+
+# Enter fullscreen mode
+super + f
+    i3-msg fullscreen toggle
+
+# Toggle tiling/floating
+super + space
+    i3-msg floating toggle
+
+# Focus parent container
+super + a 
+    i3-msg focus parent
+
+# Switch to workspace
+super + {1-9,0}
+    i3-msg workspace {1-9,10}
+
+# Move focused container to workspace
+super + shift + {1-9,0}
+    i3-msg move container to workspace {1-9,10}
+
+# Reload the configuration file
+super + shift + c
+    i3-msg reload
+
+# Restart i3 inplace
+super + shift + r
+    i3-msg restart
+
+# Exit i3
+super + shift + z
+    i3-nagbar -t warning -m "You pressed the exit shortcut. Do you really want to exit i3? This will end your X session." -b "Yes, exit i3" "i3-msg exit"
+
+# Resize mode
+super + r
+    i3-msg mode resize 
