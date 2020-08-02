@@ -123,4 +123,4 @@ super + shift + z
 
 # Resize mode
 super + r
-    i3-msg mode resize 
+    i3-msg mode "resize"
