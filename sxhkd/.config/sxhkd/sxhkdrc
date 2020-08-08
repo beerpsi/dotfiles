@@ -22,7 +22,7 @@ super + Print
 ## m: messaging
 ## f: file explorer
 super + o ; {w,e,m,f}
-    {firefox,alacritty -e vim,Discord,Thunar}
+    {vivaldi-stable,alacritty -e vim,Discord,Thunar}
 
 # volume control
 XF86AudioRaiseVolume

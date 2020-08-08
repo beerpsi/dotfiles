@@ -33,12 +33,11 @@ exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Acc
 # To type Vietnamese
 exec --no-startup-id ibus-daemon
 
-# To type APL
-exec --no-startup-id setxkbmap -layout us,apl -option 'grp:caps_toggle'
-
 # To get alternating layouts (hsplit, vsplit)
 exec --no-startup-id "$scripts_dir/alternating_layouts.py"
 
+# Caps Lock to Backspace
+exec --no-startup-id setxkbmap -option caps:backspace
 ########################################################################
 # i3 user interface
 ########################################################################
