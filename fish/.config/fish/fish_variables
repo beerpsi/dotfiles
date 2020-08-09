@@ -10,7 +10,7 @@ SETUVAR _fish_abbr_cfp:vim\x20/home/beerpsi/\x2econfig/polybar/config
 SETUVAR _fish_abbr_cfr:vim\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config\x2erasi
 SETUVAR _fish_abbr_cfs:vim\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc
 SETUVAR _fish_abbr_cfv:vim\x20/home/beerpsi/dotfiles/vim/\x2evimrc
-SETUVAR _fish_abbr_doas:doas
+SETUVAR _fish_abbr_doas_2D_:doas\x20\x2d\x2d
 SETUVAR _fish_abbr_la:ls\x20\x2dlhA
 SETUVAR _fish_abbr_theo:fortune\x20theo
 SETUVAR _fish_abbr_v:vim

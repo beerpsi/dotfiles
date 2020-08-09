@@ -20,7 +20,7 @@ abbr v "vim"
 abbr theo "fortune theo"
 abbr wttr "curl -sSL v2.wttr.in/Thu_Dau_Mot"
 abbr wttr-lite "curl -sSL v2.wttr.in/Thu_Dau_Mot | grep \"Weather:\""
-
+abbr doas- "doas --"
 # Abbreviations for config files (cf*)
 abbr cfa "vim $HOME/.config/alacritty/alacritty.yml"
 abbr cffsh "vim $HOME/.config/fish/config.fish"
