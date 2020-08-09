@@ -6,12 +6,12 @@ set PATH "$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
 
 
 # Abbreviations for xbps-* (x*)
-abbr xi "doas xbps-install"
-abbr xr "doas xbps-remove"
+abbr xi "doas -- xbps-install"
+abbr xr "doas -- xbps-remove"
 abbr xq "xbps-query"
 abbr xs "xbps-src"
-abbr xsi "doas xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
-abbr xsi-nonfree "doas xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
+abbr xsi "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
+abbr xsi-nonfree "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
 abbr xsq "ls ~/Downloads/git/void-packages/srcpkgs/ | grep"
 
 # Misc. abbreviations
@@ -34,7 +34,7 @@ abbr cfs "vim $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc"
 
 # doas insults for fish
 function doas
-    /usr/bin/doas $argv # I'll never use any other flags of doas anywayso why not, also because $argv doesn't get the --
+    /usr/bin/doas $argv 
     if test "$status" = "1"
         fortune theo 1>&2; false
     else
