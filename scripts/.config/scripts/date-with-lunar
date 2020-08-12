@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo " "  $(date "+%A %Y-%m-%d %H:%M:%S") "("$(java -jar ~/.config/scripts/VietCalendar.jar) "ÂL)"
