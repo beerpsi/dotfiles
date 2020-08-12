@@ -24,7 +24,7 @@ font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
 modules-left = i3 title
-modules-right = cpu memory battery volume backlight wireless-network wired-network date powermenu
+modules-right = openweathermap cpu memory battery volume backlight wireless-network wired-network date-with-lunar powermenu
 
 [module/backlight]
 type = internal/xbacklight
@@ -263,4 +263,14 @@ type = custom/script
 tail = true
 label = %output%
 exec = /usr/local/bin/polybar-sxhkd
+
+[module/openweathermap]
+type = custom/script
+exec = ~/.config/scripts/openweathermap
+interval = 600
+
+[module/date-with-lunar]
+type = custom/script
+exec =  ~/.config/scripts/date-with-lunar
+interval = 1.0
 ; vim:ft=dosini

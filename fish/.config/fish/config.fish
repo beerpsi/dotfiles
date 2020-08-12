@@ -21,6 +21,14 @@ abbr theo "fortune theo"
 abbr wttr "curl -sSL v2.wttr.in/Thu_Dau_Mot"
 abbr wttr-lite "curl -sSL v2.wttr.in/Thu_Dau_Mot | grep \"Weather:\""
 abbr doas- "doas --"
+abbr lunar-date "java -jar ~/.config/scripts/VietCalendar.jar"
+
+
+abbr idle "zzz -S"
+abbr suspend "zzz -z"
+abbr hibernate "zzz -Z"
+abbr suspend-hybrid "zzz -H"
+
 # Abbreviations for config files (cf*)
 abbr cfa "vim $HOME/.config/alacritty/alacritty.yml"
 abbr cffsh "vim $HOME/.config/fish/config.fish"
@@ -37,7 +45,19 @@ function doas
     /usr/bin/doas $argv 
     if test "$status" = "1"
         fortune theo 1>&2; false
-    else
-        /usr/bin/doas $argv
     end
+end
+
+# Launch an application using the dedicated GPU and disown the process
+function dgpu
+    DRI_PRIME=1 nohup $argv &; disown
+end
+
+# Torture test
+function burn
+    i3-msg workspace 2
+    cd ~/Downloads/GpuTest/GpuTest_Linux_x64_0.7.0/
+    DRI_PRIME=1 timeout $argv ./start_furmark_windowed_1024x640.sh &; disown    
+    timeout $argv nohup ~/Downloads/Prime95/mprime -t &; disown
+    timeout $argv alacritty -e watch -t -n 1 'sensors; lscpu | grep MHz' 
 end

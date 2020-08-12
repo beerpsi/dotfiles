@@ -11,7 +11,12 @@ SETUVAR _fish_abbr_cfr:vim\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config
 SETUVAR _fish_abbr_cfs:vim\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc
 SETUVAR _fish_abbr_cfv:vim\x20/home/beerpsi/dotfiles/vim/\x2evimrc
 SETUVAR _fish_abbr_doas_2D_:doas\x20\x2d\x2d
+SETUVAR _fish_abbr_hibernate:zzz\x20\x2dZ
+SETUVAR _fish_abbr_idle:zzz\x20\x2dS
 SETUVAR _fish_abbr_la:ls\x20\x2dlhA
+SETUVAR _fish_abbr_lunar_2D_date:java\x20\x2djar\x20\x7e/\x2econfig/scripts/VietCalendar\x2ejar
+SETUVAR _fish_abbr_suspend:zzz\x20\x2dz
+SETUVAR _fish_abbr_suspend_2D_hybrid:zzz\x20\x2dH
 SETUVAR _fish_abbr_theo:fortune\x20theo
 SETUVAR _fish_abbr_v:vim
 SETUVAR _fish_abbr_weather:curl\x20\x2dsSL\x20v2\x2ewttr\x2ein/Thu_Dau_Mot
