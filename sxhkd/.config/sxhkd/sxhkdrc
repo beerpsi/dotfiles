@@ -22,7 +22,7 @@ super + Print
 ## m: messaging
 ## f: file explorer
 super + o ; {w,e,m,f}
-    {vivaldi-stable,alacritty -e vim,Discord,Thunar}
+    DRI_PRIME=1 {vivaldi-stable,alacritty -e vim,Discord,Thunar}
 
 # volume control
 XF86AudioRaiseVolume
@@ -70,6 +70,9 @@ XF86AudioPrev
     playerctl previous
    #mocp --previous
 
+# Power controls
+super + p ; {i,s,h,b}
+    zzz -{S,z,Z,H}
 #################################################
 # i3 keybinds
 #################################################

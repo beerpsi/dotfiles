@@ -38,6 +38,9 @@ exec --no-startup-id "$scripts_dir/alternating_layouts.py"
 
 # Caps Lock to Backspace
 exec --no-startup-id setxkbmap -option caps:backspace
+
+# Notification daemon
+exec --no-startup-id dunst
 ########################################################################
 # i3 user interface
 ########################################################################
