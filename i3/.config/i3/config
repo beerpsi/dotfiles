@@ -37,7 +37,7 @@ exec --no-startup-id ibus-daemon
 exec --no-startup-id "$scripts_dir/alternating_layouts.py"
 
 # Caps Lock to Backspace
-exec --no-startup-id setxkbmap -option caps:backspace
+exec --no-startup-id setxkbmap -option caps:swapescape
 
 # Notification daemon
 exec --no-startup-id dunst
