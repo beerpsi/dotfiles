@@ -160,7 +160,7 @@ type = internal/network
 interface = net0
 interval = 3.0
 
-label-connected =    %{T3}%local_ip%%{T-}
+label-connected =    %local_ip%
 label-disconnected-foreground = #66
 
 [module/volume]
