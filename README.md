@@ -20,4 +20,4 @@ It'll give you some output like `progname 5383 user 22r REG 8,1 16791251 265368 
 
 # TODO: 
 
-- [ ] Get FontAwesome v4.7.0 in my .fonts folder
+- [ ] Get FontAwesome v4.7.0 in my .fonts folder (source https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.tar.gz)
