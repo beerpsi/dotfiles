@@ -25,7 +25,7 @@ get_icon() {
 }
 
 KEY="82aa3a0ddea27043a03ef653cd5a9e18"
-CITY="Thu Dau Mot"
+CITY="Thu Dau Mot" # Put in your own city
 UNITS="metric"
 SYMBOL="°C"
 
