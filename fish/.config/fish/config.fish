@@ -2,7 +2,7 @@
 fortune | cowsay | lolcat
 
 # Add directory of scripts to PATH
-set PATH "$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
+set PATH "$HOME/.cargo/bin:$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
 
 
 # Abbreviations for xbps-* (x*)
