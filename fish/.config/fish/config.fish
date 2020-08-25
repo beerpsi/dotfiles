@@ -6,13 +6,13 @@ set PATH "$HOME/.cargo/bin:$HOME/Downloads/git/void-packages:$HOME/.config/scrip
 
 
 # Abbreviations for xbps-* (x*)
-abbr xi "doas -- xbps-install"
-abbr xr "doas -- xbps-remove"
-abbr xq "xbps-query"
-abbr xs "xbps-src"
-abbr xsi "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
-abbr xsi-nonfree "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
-abbr xsq "ls ~/Downloads/git/void-packages/srcpkgs/ | grep"
+#abbr xi "doas -- xbps-install"
+#abbr xr "doas -- xbps-remove"
+#abbr xq "xbps-query"
+#abbr xs "xbps-src"
+#abbr xsi "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs"
+#abbr xsi-nonfree "doas -- xbps-install --repository ~/Downloads/git/void-packages/hostdir/binpkgs/nonfree"
+#abbr xsq "ls ~/Downloads/git/void-packages/srcpkgs/ | grep"
 
 # Misc. abbreviations
 abbr la "ls -lhA"
