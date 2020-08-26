@@ -9,8 +9,8 @@ super + Return
     alacritty
 
 ## Run application menu, window switcher, emoji menu
-super + {d,Tab,u}
-    {rofi -location 2 -show run,rofi -location 2 -show window,rofimoji}
+super + {d,Tab,u,p}
+    {rofi -location 2 -show run,rofi -location 2 -show window,rofimoji,bwmenu}
 
 ## Screenshot program
 super + Print
@@ -22,7 +22,7 @@ super + Print
 ## m: messaging
 ## f: file explorer
 super + o ; {w,e,m,f}
-    DRI_PRIME=1 {vivaldi-stable,alacritty -e vim,Discord,Thunar}
+    DRI_PRIME=1 {brave,alacritty -e vim,Discord,Thunar}
 
 # volume control
 XF86AudioRaiseVolume
