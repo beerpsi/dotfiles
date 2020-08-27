@@ -1,0 +1,135 @@
+06:33:42 PM.479: CPU Name: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
+06:33:42 PM.479: CPU Speed: 800.075MHz
+06:33:42 PM.480: Physical Cores: 2, Logical Cores: 4
+06:33:42 PM.480: Physical Memory: 3799MB Total, 854MB Free
+06:33:42 PM.480: Kernel Version: Linux 5.7.8-arch1-1
+06:33:42 PM.480: Distribution: "EndeavourOS" Unknown
+06:33:42 PM.481: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.8
+06:33:42 PM.562: Portable mode: false
+06:33:42 PM.797: OBS 25.0.8-2 (linux)
+06:33:42 PM.797: ---------------------------------
+06:33:42 PM.810: ---------------------------------
+06:33:42 PM.810: audio settings reset:
+06:33:42 PM.810: 	samples per sec: 44100
+06:33:42 PM.810: 	speakers:        2
+06:33:42 PM.844: ---------------------------------
+06:33:42 PM.844: Initializing OpenGL...
+06:33:42 PM.932: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 620 (KBL GT2)
+06:33:42 PM.932: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.1.5, shading language 4.60
+06:33:43 PM.317: ---------------------------------
+06:33:43 PM.317: video settings reset:
+06:33:43 PM.317: 	base resolution:   1920x1080
+06:33:43 PM.317: 	output resolution: 960x540
+06:33:43 PM.317: 	downscale filter:  Bicubic
+06:33:43 PM.317: 	fps:               30/1
+06:33:43 PM.317: 	format:            NV12
+06:33:43 PM.317: 	YUV mode:          601/Partial
+06:33:43 PM.317: NV12 texture support not available
+06:33:43 PM.323: Audio monitoring device:
+06:33:43 PM.323: 	name: Default
+06:33:43 PM.323: 	id: default
+06:33:43 PM.323: ---------------------------------
+06:33:43 PM.348: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:33:44 PM.295: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+06:33:44 PM.295: No blackmagic support
+06:33:44 PM.838: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+06:33:44 PM.838: 
+06:33:44 PM.838: FFMPEG VAAPI supported
+06:33:45 PM.067: VLC found, VLC video source enabled
+06:33:45 PM.067: ---------------------------------
+06:33:45 PM.067:   Loaded Modules:
+06:33:45 PM.067:     vlc-video.so
+06:33:45 PM.067:     text-freetype2.so
+06:33:45 PM.067:     rtmp-services.so
+06:33:45 PM.067:     obs-x264.so
+06:33:45 PM.067:     obs-transitions.so
+06:33:45 PM.067:     obs-outputs.so
+06:33:45 PM.067:     obs-libfdk.so
+06:33:45 PM.067:     obs-filters.so
+06:33:45 PM.067:     obs-ffmpeg.so
+06:33:45 PM.067:     linux-v4l2.so
+06:33:45 PM.067:     linux-pulseaudio.so
+06:33:45 PM.067:     linux-jack.so
+06:33:45 PM.067:     linux-decklink.so
+06:33:45 PM.067:     linux-capture.so
+06:33:45 PM.067:     linux-alsa.so
+06:33:45 PM.067:     image-source.so
+06:33:45 PM.067:     frontend-tools.so
+06:33:45 PM.067:     decklink-ouput-ui.so
+06:33:45 PM.067: ---------------------------------
+06:33:45 PM.087: ==== Startup complete ===============================================
+06:33:45 PM.118: All scene data cleared
+06:33:45 PM.119: ------------------------------------------------
+06:33:45 PM.145: pulse-input: Server name: 'pulseaudio 13.0'
+06:33:45 PM.145: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+06:33:45 PM.145: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+06:33:45 PM.145: [Loaded global audio device]: 'Desktop Audio'
+06:33:45 PM.263: pulse-input: Server name: 'pulseaudio 13.0'
+06:33:45 PM.264: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:33:45 PM.264: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+06:33:45 PM.264: [Loaded global audio device]: 'Mic/Aux'
+06:33:45 PM.265: xshm-input: Geometry 1920x1080 @ 0,0
+06:33:45 PM.268: Switched to scene 'Scene'
+06:33:45 PM.268: ------------------------------------------------
+06:33:45 PM.268: Loaded scenes:
+06:33:45 PM.268: - scene 'Scene':
+06:33:45 PM.268:     - source: 'Screen Capture (XSHM)' (xshm_input)
+06:33:45 PM.268: ------------------------------------------------
+06:33:45 PM.847: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+06:33:45 PM.847: 
+06:34:03 PM.146: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'Scene'
+06:34:10 PM.101: User added source 'VLC Video Source' (vlc_source) to scene 'Scene'
+06:36:38 PM.569: User Removed source 'VLC Video Source' (vlc_source) from scene 'Scene'
+06:36:46 PM.307: User added source 'VLC Video Source' (vlc_source) to scene 'Scene'
+06:37:59 PM.007: User Removed source 'VLC Video Source' (vlc_source) from scene 'Scene'
+06:38:02 PM.523: User added source 'VLC Video Source' (vlc_source) to scene 'Scene'
+06:38:55 PM.165: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Mic/Aux)
+06:38:55 PM.165: 
+06:41:42 PM.450: ---------------------------------
+06:41:42 PM.466: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+06:41:42 PM.488: [x264 encoder: 'simple_h264_stream'] settings:
+06:41:42 PM.488: 	rate_control: CBR
+06:41:42 PM.488: 	bitrate:      1800
+06:41:42 PM.488: 	buffer size:  1800
+06:41:42 PM.488: 	crf:          0
+06:41:42 PM.488: 	fps_num:      30
+06:41:42 PM.488: 	fps_den:      1
+06:41:42 PM.488: 	width:        960
+06:41:42 PM.488: 	height:       540
+06:41:42 PM.488: 	keyint:       60
+06:41:42 PM.488: 
+06:41:42 PM.488: [x264 encoder: 'simple_h264_stream'] custom settings: scenecut=0
+06:41:42 PM.594: libfdk_aac encoder created
+06:41:42 PM.594: libfdk_aac bitrate: 160, channels: 2
+06:41:42 PM.594: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-sin.twitch.tv/app...
+06:41:43 PM.247: [rtmp stream: 'simple_stream'] Connection to rtmp://live-sin.twitch.tv/app successful
+06:41:43 PM.252: ==== Streaming Start ===============================================
+06:41:49 PM.226: User added source 'VLC Video Source 2' (vlc_source) to scene 'Scene'
+06:44:14 PM.103: User Removed source 'VLC Video Source' (vlc_source) from scene 'Scene'
+08:12:33 PM.346: [rtmp stream: 'simple_stream'] User stopped the stream
+08:12:33 PM.446: Output 'simple_stream': stopping
+08:12:33 PM.446: Output 'simple_stream': Total frames output: 162963 (163424 attempted)
+08:12:33 PM.446: Output 'simple_stream': Total drawn frames: 163137 (163525 attempted)
+08:12:33 PM.446: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 388 (0.2%)
+08:12:33 PM.446: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 461 (0.3%)
+08:12:33 PM.446: [rtmp stream: 'simple_stream'] Freeing 7 remaining packets
+08:12:33 PM.453: Video stopped, number of skipped frames due to encoding lag: 4106/163505 (2.5%)
+08:12:33 PM.453: Video stopped, number of skipped frames due to encoding lag: 4106/163505 (2.5%)
+08:12:33 PM.453: ==== Streaming Stop ================================================
+08:12:33 PM.668: libfdk_aac encoder destroyed
+08:12:34 PM.098: ==== Shutting down ==================================================
+08:12:34 PM.182: Switched to scene '(null)'
+08:12:34 PM.662: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+08:12:34 PM.663: pulse-input: Got 1233859 packets with 284520300 frames
+08:12:34 PM.663: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+08:12:34 PM.663: pulse-input: Got 595003 packets with 261482040 frames
+08:12:34 PM.724: All scene data cleared
+08:12:34 PM.724: ------------------------------------------------
+08:12:34 PM.790: Failed to fetch parent window geometry!
+08:12:34 PM.790: Failed to fetch parent window geometry!
+08:12:34 PM.790: Failed to fetch parent window geometry!
+08:12:34 PM.790: Failed to fetch parent window geometry!
+08:12:34 PM.824: Failed to fetch parent window geometry!
+08:12:34 PM.824: Failed to fetch parent window geometry!
+08:12:34 PM.824: Failed to fetch parent window geometry!
+08:12:34 PM.824: Failed to fetch parent window geometry!
