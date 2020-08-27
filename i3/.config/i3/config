@@ -34,7 +34,7 @@ exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Acc
 exec --no-startup-id ibus-daemon
 
 # To get alternating layouts (hsplit, vsplit)
-exec --no-startup-id "$scripts_dir/alternating_layouts.py"
+exec --no-startup-id "$scripts_dir/alternating-layouts.py"
 
 # Caps Lock to Backspace
 exec --no-startup-id setxkbmap -option caps:swapescape
