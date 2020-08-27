@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+This file is stolen from https://github.com/olemartinorg/i3-alternating-layout
+Go check them out!
+"""
+
+
 
 import getopt
 import sys
