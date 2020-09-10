@@ -16,7 +16,7 @@ set $scripts_dir ~/dotfiles/scripts/.config/scripts
 exec --no-startup-id "$scripts_dir/start-polybar" 
 
 # Compton (transparency and stuff)
-exec --no-startup-id "compton -cC"
+#exec --no-startup-id "compton -cC"
 
 # NetworkManager applet to make network managing easy
 exec --no-startup-id nm-applet
@@ -31,7 +31,7 @@ exec --no-startup-id sxhkd
 exec --no-startup-id xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1 
 
 # To type Vietnamese
-exec --no-startup-id ibus-daemon
+exec --no-startup-id fcitx
 
 # To get alternating layouts (hsplit, vsplit)
 exec --no-startup-id "$scripts_dir/alternating-layouts.py"
@@ -41,6 +41,12 @@ exec --no-startup-id setxkbmap -option caps:swapescape
 
 # Notification daemon
 exec --no-startup-id dunst
+
+# Lock screen when suspend
+exec --no-startup-id xss-lock -- i3lock -c 2e3440 --insidevercolor=88c0d0 --insidewrongcolor=bf616a --insidecolor=81a1c1 --ringvercolor=81a1c1 --ringwrongcolor=bf616a --ringcolor=81a1c1 -k --time-font=NotoSans-Regular --date-font=NotoSans-Regular
+
+# my eyes need no suffering
+exec --no-startup-id safeeyes
 ########################################################################
 # i3 user interface
 ########################################################################

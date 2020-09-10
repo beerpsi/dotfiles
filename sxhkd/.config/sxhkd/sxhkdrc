@@ -58,10 +58,10 @@ super + shift + F12
 
 # music controls
 XF86AudioPlay
-    playerctl play
+    playerctl play-pause
    #mocp --toggle-pause
 XF86AudioPause
-    playerctl pause
+    playerctl play-pause
    #mocp --toggle-pause
 XF86AudioNext
     playerctl next
@@ -127,3 +127,7 @@ super + shift + z
 # Resize mode
 super + r
     i3-msg mode "resize"
+
+# Lock
+alt + l
+    i3lock -c 2e3440 --insidevercolor=88c0d0 --insidewrongcolor=bf616a --insidecolor=81a1c1 --ringvercolor=81a1c1 --ringwrongcolor=bf616a --ringcolor=81a1c1 -k --time-font=NotoSans-Regular --date-font=NotoSans-Regular

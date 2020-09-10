@@ -2,8 +2,13 @@
 fortune | cowsay | lolcat
 
 # Add directory of scripts to PATH
-set PATH "$HOME/.cargo/bin:$HOME/Downloads/git/void-packages:$HOME/.config/scripts:$PATH"
+set PATH "$HOME/.emacs.d/bin:$HOME/.cargo/bin:$HOME/Downloads/git/rofi-rbw/rofi_rbw:$HOME/.config/scripts:$PATH"
 
+# set editor
+set EDITOR "emacs -nw"
+
+# Fish abbreviated path disabled
+set fish_prompt_pwd_dir_length 0
 
 # Abbreviations for xbps-* (x*)
 #abbr xi "doas -- xbps-install"
@@ -16,41 +21,42 @@ set PATH "$HOME/.cargo/bin:$HOME/Downloads/git/void-packages:$HOME/.config/scrip
 
 # Misc. abbreviations
 abbr la "ls -lhA"
-abbr v "vim"
+abbr v "$EDITOR"
+abbr vim "$EDITOR"
 abbr theo "fortune theo"
 abbr wttr "curl -sSL v2.wttr.in/Thu_Dau_Mot"
 abbr wttr-lite "curl -sSL v2.wttr.in/Thu_Dau_Mot | grep \"Weather:\""
-abbr doas- "doas --"
-abbr lunar-date "java -jar ~/.config/scripts/VietCalendar.jar"
+abbr d "doas"
+abbr do "doas --"
+abbr lunar-date "$HOME/.config/scripts/VietCalendar"
 
 
-abbr idle "zzz -S"
-abbr suspend "zzz -z"
-abbr hibernate "zzz -Z"
-abbr suspend-hybrid "zzz -H"
+#abbr idle "zzz -S"
+#abbr suspend "zzz -z"
+#abbr hibernate "zzz -Z"
+#abbr suspend-hybrid "zzz -H"
 
+abbr edit "$EDITOR"
+
+abbr pkg "yay"
+
+abbr ytdl-music "youtube-dl --ignore-errors --extract-audio --audio-format mp3 --output \"$HOME/Music/%(title)s.%(ext)s\""
 # Abbreviations for config files (cf*)
-abbr cfa "vim $HOME/.config/alacritty/alacritty.yml"
-abbr cffsh "vim $HOME/.config/fish/config.fish"
-abbr cfi "vim $HOME/.config/i3/config"
-abbr cfn "vim $HOME/.config/neofetch/config.conf"
-abbr cfp "vim $HOME/.config/polybar/config"
-abbr cfff "vim $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
-abbr cfv "vim $HOME/dotfiles/vim/.vimrc"
-abbr cfr "vim $HOME/dotfiles/rofi/.config/rofi/config.rasi"
-abbr cfs "vim $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc"   
+abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml"
+abbr cffsh "$EDITOR $HOME/.config/fish/config.fish"
+abbr cfi "$EDITOR $HOME/.config/i3/config"
+abbr cfn "$EDITOR $HOME/.config/neofetch/config.conf"
+abbr cfp "$EDITOR $HOME/.config/polybar/config"
+abbr cfff "$EDITOR $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
+abbr cfv "$EDITOR $HOME/dotfiles/vim/.vimrc"
+abbr cfr "$EDITOR $HOME/dotfiles/rofi/.config/rofi/config.rasi"
+abbr cfs "$EDITOR $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc"   
+abbr cfnv "$EDITOR $HOME/dotfiles/nvim/.config/nvim/init.vim" 
 
-# doas insults for fish
-function doas
-    /usr/bin/doas $argv 
-    if test "$status" = "1"
-        fortune theo 1>&2; false
-    end
-end
 
 # Launch an application using the dedicated GPU and disown the process
 function dgpu
-    DRI_PRIME=1 nohup $argv &; disown
+    DRI_PRIME=1 $argv &
 end
 
 # Torture test
@@ -60,4 +66,13 @@ function burn
     DRI_PRIME=1 timeout $argv ./start_furmark_windowed_1024x640.sh &; disown    
     timeout $argv nohup ~/Downloads/Prime95/mprime -t &; disown
     timeout $argv alacritty -e watch -t -n 1 'sensors; lscpu | grep MHz' 
+end
+
+function makemousework
+    xinput set-prop "Synaptics TM3253-001" "Coordinate Transformation Matrix" 4.2 0 0 0 4.2 0 0 0 0
+    xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
+end
+
+function ayy
+    echo "ayy lmao" | figlet | lolcat
 end
