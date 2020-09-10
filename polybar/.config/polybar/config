@@ -1,4 +1,4 @@
-; mrlacpeanut's polybar config
+; beerpsi's polybar config
 [bar/top]
 monitor = ${env:MONITOR:}
 width = 100%
@@ -221,18 +221,18 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-label-focused = %icon%
+label-focused = %index%
 label-focused-underline=#a3be8c
 label-focused-padding = 2
 
-label-unfocused = %icon%
+label-unfocused = %index%
 label-unfocused-padding = ${self.label-focused-padding}
 
-label-urgent = %icon%!
+label-urgent = %index%!
 label-urgent-background = #bf616a
 label-urgent-padding = ${self.label-focused-padding}
 
-label-visible = %icon%
+label-visible = %index%
 label-visible-padding = ${self.label-focused-padding}
 
 label-mode-padding = ${self.label-focused-padding}
