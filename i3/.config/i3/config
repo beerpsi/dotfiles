@@ -55,13 +55,14 @@ exec --no-startup-id safeeyes
 font pango:overpass 9
 
 # thin borders
-hide_edge_borders both
+#hide_edge_borders both
 
 # Colors
-set_from_resource $fg i3wm.color1
-set_from_resource $bg i3wm.color2
+set $fg #d8dee9
+set $bg #2e3440 
 set_from_resource $ac i3wm.color3
 
+default_border normal
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -83,7 +84,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 for_window [class="Pavucontrol"] floating enable
 
 # No borders
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 3
 
 # Force Discord to be in workspace 2 (MSG)
 assign [class="discord"] 2
