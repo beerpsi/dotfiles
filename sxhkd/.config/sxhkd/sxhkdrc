@@ -13,7 +13,7 @@ super + {Tab,u,p}
     {rofi -location 2 -show window,rofimoji,bwmenu}
 
 ## Screenshot program
-super + Print
+Print
     flameshot gui
 
 ## Quickly run my preferred programs
