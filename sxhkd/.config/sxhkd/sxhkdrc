@@ -9,8 +9,8 @@ super + Return
     alacritty
 
 ## Run application menu, window switcher, emoji menu
-super + {d,Tab,u,p}
-    {rofi -location 2 -show run,rofi -location 2 -show window,rofimoji,bwmenu}
+super + {Tab,u,p}
+    {rofi -location 2 -show window,rofimoji,bwmenu}
 
 ## Screenshot program
 super + Print

@@ -18,6 +18,9 @@ exec --no-startup-id "$scripts_dir/start-polybar"
 # Compton (transparency and stuff)
 #exec --no-startup-id "compton -cC"
 
+# albert
+exec --no-startup-id albert
+
 # NetworkManager applet to make network managing easy
 exec --no-startup-id nm-applet
 

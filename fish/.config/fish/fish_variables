@@ -1,20 +1,20 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_cfa:emacs\x20\x2dnw\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml
-SETUVAR _fish_abbr_cfff:emacs\x20\x2dnw\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss
-SETUVAR _fish_abbr_cffsh:emacs\x20\x2dnw\x20/home/beerpsi/\x2econfig/fish/config\x2efish
-SETUVAR _fish_abbr_cfi:emacs\x20\x2dnw\x20/home/beerpsi/\x2econfig/i3/config
-SETUVAR _fish_abbr_cfn:emacs\x20\x2dnw\x20/home/beerpsi/\x2econfig/neofetch/config\x2econf
-SETUVAR _fish_abbr_cfnv:emacs\x20\x2dnw\x20/home/beerpsi/dotfiles/nvim/\x2econfig/nvim/init\x2evim
-SETUVAR _fish_abbr_cfp:emacs\x20\x2dnw\x20/home/beerpsi/\x2econfig/polybar/config
-SETUVAR _fish_abbr_cfr:emacs\x20\x2dnw\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config\x2erasi
-SETUVAR _fish_abbr_cfs:emacs\x20\x2dnw\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc
-SETUVAR _fish_abbr_cfv:emacs\x20\x2dnw\x20/home/beerpsi/dotfiles/vim/\x2evimrc
+SETUVAR _fish_abbr_cfa:nvim\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml
+SETUVAR _fish_abbr_cfff:nvim\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss
+SETUVAR _fish_abbr_cffsh:nvim\x20/home/beerpsi/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_cfi:nvim\x20/home/beerpsi/\x2econfig/i3/config
+SETUVAR _fish_abbr_cfn:nvim\x20/home/beerpsi/\x2econfig/neofetch/config\x2econf
+SETUVAR _fish_abbr_cfnv:nvim\x20/home/beerpsi/dotfiles/nvim/\x2econfig/nvim/init\x2evim
+SETUVAR _fish_abbr_cfp:nvim\x20/home/beerpsi/\x2econfig/polybar/config
+SETUVAR _fish_abbr_cfr:nvim\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config\x2erasi
+SETUVAR _fish_abbr_cfs:nvim\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc
+SETUVAR _fish_abbr_cfv:nvim\x20/home/beerpsi/dotfiles/vim/\x2evimrc
 SETUVAR _fish_abbr_d:doas
 SETUVAR _fish_abbr_do:doas\x20\x2d\x2d
 SETUVAR _fish_abbr_doas_2D_:doas\x20\x2d\x2d
-SETUVAR _fish_abbr_edit:emacs\x20\x2dnw
+SETUVAR _fish_abbr_edit:nvim
 SETUVAR _fish_abbr_hibernate:zzz\x20\x2dZ
 SETUVAR _fish_abbr_idle:zzz\x20\x2dS
 SETUVAR _fish_abbr_la:ls\x20\x2dlhA
@@ -23,8 +23,8 @@ SETUVAR _fish_abbr_pkg:yay
 SETUVAR _fish_abbr_suspend:zzz\x20\x2dz
 SETUVAR _fish_abbr_suspend_2D_hybrid:zzz\x20\x2dH
 SETUVAR _fish_abbr_theo:fortune\x20theo
-SETUVAR _fish_abbr_v:emacs\x20\x2dnw
-SETUVAR _fish_abbr_vim:emacs\x20\x2dnw
+SETUVAR _fish_abbr_v:nvim
+SETUVAR _fish_abbr_vim:nvim
 SETUVAR _fish_abbr_weather:curl\x20\x2dsSL\x20v2\x2ewttr\x2ein/Thu_Dau_Mot
 SETUVAR _fish_abbr_weather_2D_lite:curl\x20\x2dsSL\x20v2\x2ewttr\x2ein/Thu_Dau_Mot\x20\x7c\x20grep\x20\x22Weather\x3a\x22
 SETUVAR _fish_abbr_wttr:curl\x20\x2dsSL\x20v2\x2ewttr\x2ein/Thu_Dau_Mot
