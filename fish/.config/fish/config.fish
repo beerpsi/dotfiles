@@ -1,7 +1,7 @@
 function commit-if-diff
     set previous_wd $PWD
     cd $HOME/dotfiles
-    if [ "(git diff | wc -l)" = "0" ]
+    if test (git diff | wc -l) = 0
         echo "beerpsi/dotfiles: all up to date"
         cd $previous_wd
     else
