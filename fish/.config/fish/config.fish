@@ -3,13 +3,12 @@ function commit-if-diff
     cd $HOME/dotfiles
     if test (git diff | wc -l) = 0
         echo "beerpsi/dotfiles: all up to date"
-        cd $previous_wd
     else
         git add .
         git commit -m "Automated commit"
         git push -u origin master
-        cd $previous_wd
     end
+    cd $previous_wd
 end
 
 # Welcome message
