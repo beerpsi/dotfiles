@@ -25,7 +25,7 @@ exec --no-startup-id albert
 exec --no-startup-id nm-applet
 
 # Wallpaper
-exec --no-startup-id "feh --bg-fill ~/.config/wallpaper/polandball_northern_lights.png" 
+exec --no-startup-id "feh --bg-fill ~/.config/wallpaper/marshmary-2x.png" 
 
 # non-i3 keybinds will be managed by sxhkd
 exec --no-startup-id sxhkd
