@@ -1,3 +1,19 @@
+function commit-if-diff
+    set previous-wd $PWD
+    cd $HOME/dotfiles
+    if [ "(git diff | wc -l)" = "0" ]
+        echo "beerpsi/dotfiles: all up to date"
+        cd $previous-wd
+    else
+        git add .
+        git commit -m "Automated commit"
+        git push -u origin master
+        cd $previous-wd
+    end
+end
+
+
+
 # Welcome message
 fortune | cowsay | lolcat
 
