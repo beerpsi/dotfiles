@@ -1,14 +1,14 @@
 function commit-if-diff
-    set previous-wd $PWD
+    set previous_wd $PWD
     cd $HOME/dotfiles
     if [ "(git diff | wc -l)" = "0" ]
         echo "beerpsi/dotfiles: all up to date"
-        cd $previous-wd
+        cd $previous_wd
     else
         git add .
         git commit -m "Automated commit"
         git push -u origin master
-        cd $previous-wd
+        cd $previous_wd
     end
 end
 
