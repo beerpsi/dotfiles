@@ -57,17 +57,18 @@ abbr edit "$EDITOR"
 abbr pkg "yay"
 
 abbr ytdl-music "youtube-dl --ignore-errors --extract-audio --audio-format mp3 --output \"$HOME/Music/%(title)s.%(ext)s\""
+
 # Abbreviations for config files (cf*)
-abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml"
-abbr cffsh "$EDITOR $HOME/.config/fish/config.fish"
-abbr cfi "$EDITOR $HOME/.config/i3/config"
-abbr cfn "$EDITOR $HOME/.config/neofetch/config.conf"
-abbr cfp "$EDITOR $HOME/.config/polybar/config"
-abbr cfff "$EDITOR $HOME/dotfiles/firefox/.config/firefox/userChrome.css"
-abbr cfv "$EDITOR $HOME/dotfiles/vim/.vimrc"
-abbr cfr "$EDITOR $HOME/dotfiles/rofi/.config/rofi/config.rasi"
-abbr cfs "$EDITOR $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc"   
-abbr cfnv "$EDITOR $HOME/dotfiles/nvim/.config/nvim/init.vim" 
+abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml ;and commit-if-diff"
+abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff"
+abbr cfi "$EDITOR $HOME/.config/i3/config ;and commit-if-diff"
+abbr cfn "$EDITOR $HOME/.config/neofetch/config.conf ;and commit-if-diff"
+abbr cfp "$EDITOR $HOME/.config/polybar/config ;and commit-if-diff"
+abbr cfff "$EDITOR $HOME/dotfiles/firefox/.config/firefox/userChrome.css ;and commit-if-diff"
+abbr cfv "$EDITOR $HOME/dotfiles/vim/.vimrc ;and commit-if-diff"
+abbr cfr "$EDITOR $HOME/dotfiles/rofi/.config/rofi/config.rasi ;and commit-if-diff"
+abbr cfs "$EDITOR $HOME/dotfiles/sxhkd/.config/sxhkd/sxhkdrc ;and commit-if-diff"   
+abbr cfnv "$EDITOR $HOME/dotfiles/nvim/.config/nvim/init.vim ;and commit-if-diff" 
 
 
 # Launch an application using the dedicated GPU and disown the process
