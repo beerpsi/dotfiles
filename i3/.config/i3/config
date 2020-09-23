@@ -46,7 +46,7 @@ exec --no-startup-id setxkbmap -option caps:swapescape
 exec --no-startup-id dunst
 
 # Lock screen when suspend
-exec --no-startup-id xss-lock -- i3lock -c 2e3440 --insidevercolor=88c0d0 --insidewrongcolor=bf616a --insidecolor=81a1c1 --ringvercolor=81a1c1 --ringwrongcolor=bf616a --ringcolor=81a1c1 -k --time-font=NotoSans-Regular --date-font=NotoSans-Regular
+exec --no-startup-id xss-lock -- i3lock -c 2e3440 --insidevercolor=88c0d0 --insidewrongcolor=bf616a --insidecolor=81a1c1 --ringvercolor=81a1c1 --ringwrongcolor=bf616a --ringcolor=81a1c1 -k --time-font=NotoSans-Regular --date-font=NotoSans-Regular --image ~/.config/wallpaper/ai-no-sukima-2x.png
 
 # my eyes need no suffering
 exec --no-startup-id safeeyes
