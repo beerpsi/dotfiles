@@ -1,16 +1,16 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_cfa:nvim\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml
-SETUVAR _fish_abbr_cfff:nvim\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss
-SETUVAR _fish_abbr_cffsh:nvim\x20/home/beerpsi/\x2econfig/fish/config\x2efish
-SETUVAR _fish_abbr_cfi:nvim\x20/home/beerpsi/\x2econfig/i3/config
-SETUVAR _fish_abbr_cfn:nvim\x20/home/beerpsi/\x2econfig/neofetch/config\x2econf
-SETUVAR _fish_abbr_cfnv:nvim\x20/home/beerpsi/dotfiles/nvim/\x2econfig/nvim/init\x2evim
-SETUVAR _fish_abbr_cfp:nvim\x20/home/beerpsi/\x2econfig/polybar/config
-SETUVAR _fish_abbr_cfr:nvim\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config\x2erasi
-SETUVAR _fish_abbr_cfs:nvim\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc
-SETUVAR _fish_abbr_cfv:nvim\x20/home/beerpsi/dotfiles/vim/\x2evimrc
+SETUVAR _fish_abbr_cfa:nvim\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfff:nvim\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cffsh:nvim\x20/home/beerpsi/\x2econfig/fish/config\x2efish\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfi:nvim\x20/home/beerpsi/\x2econfig/i3/config\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfn:nvim\x20/home/beerpsi/\x2econfig/neofetch/config\x2econf\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfnv:nvim\x20/home/beerpsi/dotfiles/nvim/\x2econfig/nvim/init\x2evim\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfp:nvim\x20/home/beerpsi/\x2econfig/polybar/config\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfr:nvim\x20/home/beerpsi/dotfiles/rofi/\x2econfig/rofi/config\x2erasi\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfs:nvim\x20/home/beerpsi/dotfiles/sxhkd/\x2econfig/sxhkd/sxhkdrc\x20\x3band\x20commit\x2dif\x2ddiff
+SETUVAR _fish_abbr_cfv:nvim\x20/home/beerpsi/dotfiles/vim/\x2evimrc\x20\x3band\x20commit\x2dif\x2ddiff
 SETUVAR _fish_abbr_d:doas
 SETUVAR _fish_abbr_do:doas\x20\x2d\x2d
 SETUVAR _fish_abbr_doas_2D_:doas\x20\x2d\x2d

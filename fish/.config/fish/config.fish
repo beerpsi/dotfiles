@@ -12,10 +12,11 @@ function commit-if-diff
     end
 end
 
-
-
 # Welcome message
 fortune | cowsay | lolcat
+
+# Automated commit in case i forgot to commit my dots
+commit-if-diff
 
 # Add directory of scripts to PATH
 set PATH "$HOME/.emacs.d/bin:$HOME/.cargo/bin:$HOME/Downloads/git/rofi-rbw/rofi_rbw:$HOME/.config/scripts:$PATH"
