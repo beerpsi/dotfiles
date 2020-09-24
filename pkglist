@@ -95,6 +95,7 @@ fprintd
 freetype2
 fsarchiver
 galculator
+garcon
 gcc
 gdm
 gedit
@@ -370,6 +371,7 @@ terminal-parrot
 terminus-font
 texinfo
 thunar
+thunar-volman
 thunderbird
 timeshift
 tk
@@ -386,6 +388,7 @@ ttf-liberation
 ttf-opensans
 ttf-ubuntu-font-family
 ttf-wps-fonts
+tumbler
 unicode-emoji
 unrar
 unzip
@@ -432,8 +435,17 @@ xf86-video-intel
 xf86-video-nouveau
 xf86-video-vesa
 xf86-video-vmware
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
 xfce4-taskmanager
+xfce4-terminal
+xfdesktop
 xfsprogs
+xfwm4
+xfwm4-themes
 xl2tpd
 xlockmore
 xorg-server
