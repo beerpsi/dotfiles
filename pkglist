@@ -161,6 +161,8 @@ jsoncpp
 leafpad
 lib32-libpulse
 lib32-libxcomposite
+lib32-vulkan-intel
+lib32-vulkan-radeon
 libatomic_ops
 libconfig
 libdvbpsi
@@ -394,6 +396,8 @@ vi
 vim
 vlc
 vpnc
+vulkan-intel
+vulkan-radeon
 welcome
 wget
 which
