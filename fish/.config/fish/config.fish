@@ -86,7 +86,7 @@ function burn
 end
 
 function makemousework
-    xinput set-prop "Synaptics TM3253-001" "Coordinate Transformation Matrix" 3.2 0 0 0 3.2 0 0 0 1
+    xinput set-prop "Synaptics TM3253-001" "Coordinate Transformation Matrix" 3.2 0 0 0 3.2 0 0 0 0
     xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
 end
 
