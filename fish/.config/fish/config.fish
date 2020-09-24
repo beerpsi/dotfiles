@@ -88,7 +88,7 @@ end
 function makemousework
     xinput set-prop "Synaptics TM3253-001" "Coordinate Transformation Matrix" 5 0 0 0 5 0 0 0 0
     xinput set-prop "Synaptics TM3253-001" "libinput Accel Speed" 1
-    xinput set-prop "Synaptics TM3253-001" "libinput Accel Profiles Enabled" 0, 1
+    xinput set-prop "Synaptics TM3253-001" "libinput Accel Profile Enabled" 0, 1
     xinput set-prop "Synaptics TM3253-001" "libinput Disable While Typing Enabled" 0
     xinput set-prop "Logitech G PRO Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
 end
