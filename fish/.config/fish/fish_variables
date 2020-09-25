@@ -36,7 +36,8 @@ SETUVAR _fish_abbr_xs:xbps\x2dsrc
 SETUVAR _fish_abbr_xsi:doas\x20\x2d\x2d\x20xbps\x2dinstall\x20\x2d\x2drepository\x20\x7e/Downloads/git/void\x2dpackages/hostdir/binpkgs
 SETUVAR _fish_abbr_xsi_2D_nonfree:doas\x20\x2d\x2d\x20xbps\x2dinstall\x20\x2d\x2drepository\x20\x7e/Downloads/git/void\x2dpackages/hostdir/binpkgs/nonfree
 SETUVAR _fish_abbr_xsq:ls\x20\x7e/Downloads/git/void\x2dpackages/srcpkgs/\x20\x7c\x20grep
-SETUVAR _fish_abbr_ytdl_2D_music:youtube\x2ddl\x20\x2d\x2dignore\x2derrors\x20\x2d\x2dextract\x2daudio\x20\x2d\x2daudio\x2dformat\x20mp3\x20\x2d\x2doutput\x20\x22/home/beerpsi/Music/\x25\x28title\x29s\x2e\x25\x28ext\x29s\x22
+SETUVAR _fish_abbr_ytdl:youtube\x2ddl
+SETUVAR _fish_abbr_ytdl_2D_music:youtube\x2ddl\x20\x2d\x2dignore\x2derrors\x20\x2d\x2dextract\x2daudio\x20\x2d\x2daudio\x2dformat\x20mp3\x20\x2df\x20best\x20\x2d\x2doutput\x20\x22/home/beerpsi/Music/\x25\x28title\x29s\x2e\x25\x28ext\x29s\x22
 SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:81a1c1
