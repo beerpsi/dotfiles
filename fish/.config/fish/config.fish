@@ -56,8 +56,8 @@ abbr edit "$EDITOR"
 
 abbr pkg "yay"
 
-abbr ytdl-music "youtube-dl --ignore-errors --extract-audio --audio-format mp3 --output \"$HOME/Music/%(title)s.%(ext)s\""
-
+abbr ytdl-music "youtube-dl --ignore-errors --extract-audio --audio-format mp3 -f best --output \"$HOME/Music/%(title)s.%(ext)s\""
+abbr ytdl "youtube-dl"
 # Abbreviations for config files (cf*)
 abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml ;and commit-if-diff"
 abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff"
