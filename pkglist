@@ -22,6 +22,7 @@ bash-completion
 bind
 binutils
 bison
+bluez-utils
 btrfs-progs
 c-ares
 cantarell-fonts
