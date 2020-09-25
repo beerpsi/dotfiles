@@ -1,4 +1,4 @@
 --ignore-errors
 -f best
---external-downloader /usr/bin/aria2c
---netrc /home/beerpsi/.netrc
+--external-downloader "/usr/bin/aria2c"
+--netrc "/home/beerpsi/.netrc"
