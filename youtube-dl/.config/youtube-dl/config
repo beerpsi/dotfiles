@@ -1,3 +1,3 @@
 --ignore-errors
 -f best
---external-downloader "/usr/bin/aria2c"
+--external-downloader aria2c
