@@ -29,7 +29,6 @@ cantarell-fonts
 capitaine-cursors
 cbindgen
 celt
-ceph-libs
 chrony
 clang
 cmatrix
@@ -153,7 +152,6 @@ i3lock-color
 idevicerestore
 imake
 inetutils
-iniparser
 inkscape
 intel-ucode
 ipw2100-fw
@@ -164,24 +162,8 @@ jp2a
 jq
 jsoncpp
 leafpad
-lib32-giflib
-lib32-gst-plugins-base-libs
-lib32-gstreamer
-lib32-libldap
-lib32-libltdl
 lib32-libpulse
 lib32-libxcomposite
-lib32-libxinerama
-lib32-libxmu
-lib32-libxslt
-lib32-libxt
-lib32-libxv
-lib32-mpg123
-lib32-ocl-icd
-lib32-openal
-lib32-openssl
-lib32-orc
-lib32-v4l-utils
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libatomic_ops
@@ -208,7 +190,6 @@ libtommath
 libtool
 libtorrent-rasterbar
 libuninameslist
-liburing
 libusb-compat
 libwnck3
 libxkbcommon-x11
@@ -279,7 +260,6 @@ npm
 nss-mdns
 ntfs-3g
 ntp
-oath-toolkit
 obs-studio
 ocl-icd
 oniguruma
@@ -310,7 +290,6 @@ perl-json-xs
 perl-mime-tools
 perl-net-smtp-ssl
 perl-net-ssleay
-perl-parse-yapp
 perl-types-serialiser
 picom
 piper
@@ -374,7 +353,6 @@ rust
 rust-docs
 s-nail
 safeeyes
-samba
 sassc
 sddm
 sdparm
@@ -384,7 +362,6 @@ simplescreenrecorder
 sl
 smartmontools
 socat
-spirv-headers
 steam
 stfl
 stow
@@ -422,6 +399,7 @@ usb_modeswitch
 usbutils
 vi
 vim
+vkd3d-valve
 vlc
 vpnc
 vulkan-intel
@@ -474,7 +452,6 @@ xfwm4
 xfwm4-themes
 xl2tpd
 xlockmore
-xmlsec
 xorg-server
 xorg-server-xvfb
 xorg-xbacklight
