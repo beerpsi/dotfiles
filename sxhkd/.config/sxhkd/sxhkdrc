@@ -130,4 +130,4 @@ super + r
 
 # Lock
 alt + l
-    i3lock -c 2e3440 --insidevercolor=88c0d0 --insidewrongcolor=bf616a --insidecolor=81a1c100 --ringvercolor=81a1c100 --ringwrongcolor=bf616a --ringcolor=81a1c1 -k --time-font=NotoSans-Regular --date-font=NotoSans-Regular --image=/home/beerpsi/.config/wallpaper/ai-no-sukima-1920-1080.png
+    light-locker-command -l
