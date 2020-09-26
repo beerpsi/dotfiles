@@ -302,6 +302,7 @@ potato
 powerpill
 ppp
 pptpclient
+proton-ge-custom-bin
 psensor
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -399,7 +400,6 @@ usb_modeswitch
 usbutils
 vi
 vim
-vkd3d-valve
 vlc
 vpnc
 vulkan-intel
