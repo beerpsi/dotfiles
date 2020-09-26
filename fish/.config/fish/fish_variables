@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_among_2D_us:DRI_PRIME\x3d1\x20PROTON_NO_ESYNC\x3d1\x20PROTON_USE_WINED3D\x3d1\x20proton\x20\x7e/Games/Among\x2dUs/\x5c\x5bKhiphach\x2evn\x5c\x5d\x5c\x20Among\x2eUs\x2ev2020\x2e9\x2e9s/Among\x2eUs\x2ev2020\x2e9\x2e9s/Among\x5c\x20Us\x2eexe
+SETUVAR _fish_abbr_among_2D_us:DRI_PRIME\x3d1\x20wine\x20\x7e/Games/Among\x2dUs/\x5c\x5bKhiphach\x2evn\x5c\x5d\x5c\x20Among\x2eUs\x2ev2020\x2e9\x2e9s/Among\x2eUs\x2ev2020\x2e9\x2e9s/Among\x5c\x20Us\x2eexe
 SETUVAR _fish_abbr_cfa:nvim\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml\x20\x3band\x20commit\x2dif\x2ddiff
 SETUVAR _fish_abbr_cfff:nvim\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss\x20\x3band\x20commit\x2dif\x2ddiff
 SETUVAR _fish_abbr_cffsh:nvim\x20/home/beerpsi/\x2econfig/fish/config\x2efish\x20\x3band\x20commit\x2dif\x2ddiff
