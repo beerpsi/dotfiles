@@ -20,6 +20,7 @@ SETUVAR _fish_abbr_hibernate:zzz\x20\x2dZ
 SETUVAR _fish_abbr_idle:zzz\x20\x2dS
 SETUVAR _fish_abbr_la:ls\x20\x2dlhA
 SETUVAR _fish_abbr_lunar_2D_date:/home/beerpsi/\x2econfig/scripts/VietCalendar
+SETUVAR _fish_abbr_np:playerctl\x20metadata\x20\x2d\x2dformat\x20\x22\x7b\x7b\x20artist\x20\x7d\x7d\x20\x2d\x20\x7b\x7b\x20title\x20\x7d\x7d\x22
 SETUVAR _fish_abbr_osu_2D_lazer:DRI_PRIME\x3d1\x20\x7e/Games/osu\x2dlazer/osu\x2eAppImage
 SETUVAR _fish_abbr_pkg:yay
 SETUVAR _fish_abbr_suspend:zzz\x20\x2dz
