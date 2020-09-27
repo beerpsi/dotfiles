@@ -58,6 +58,7 @@ abbr pkg "yay"
 
 abbr ytdl-music "youtube-dl --extract-audio --audio-format mp3 --output \"$HOME/Music/%(title)s.%(ext)s\""
 abbr ytdl "youtube-dl"
+abbr np "playerctl metadata --format \"{{ artist }} - {{ title }}\""
 
 abbr among-us "DRI_PRIME=1 wine ~/Games/Among-Us/\[Khiphach.vn\]\ Among.Us.v2020.9.9s/Among.Us.v2020.9.9s/Among\ Us.exe"
 abbr osu-lazer "DRI_PRIME=1 ~/Games/osu-lazer/osu.AppImage"
