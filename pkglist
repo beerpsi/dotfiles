@@ -9,12 +9,9 @@ alsa-plugins
 alsa-utils
 android-tools
 anki
-apparmor
-appstream-glib
 arc-gtk-theme
 arc-x-icons-theme
 arch-install-scripts
-archlinux-appstream-data
 aria2
 asciiquarium
 autoconf
@@ -91,7 +88,6 @@ file-roller
 firefox
 fish
 flameshot
-flatpak
 flex
 font-manager
 fontforge
@@ -102,7 +98,6 @@ freetype2
 fsarchiver
 galculator
 garcon
-gcab
 gcc
 gdm
 geany
@@ -122,8 +117,6 @@ gnome-packagekit
 gnome-terminal
 gnome-themes-extra
 gnu-netcat
-go
-go-tools
 gotop-bin
 gpart
 gparted
@@ -196,7 +189,6 @@ libratbag
 libressl
 libsass
 libspiro
-libstemmer
 libtommath
 libtool
 libtorrent-rasterbar
@@ -281,7 +273,6 @@ opendoas-sudo
 openssh
 openvpn
 os-prober
-ostree
 osu
 pacman-cleanup-hook
 pacman-contrib
@@ -329,7 +320,6 @@ python-cffi
 python-chardet
 python-constantly
 python-cryptography
-python-docutils
 python-evdev
 python-hyperlink
 python-idna
@@ -376,8 +366,8 @@ shaderc
 simplescreenrecorder
 sl
 smartmontools
+snapd
 socat
-squashfs-tools
 steam
 stfl
 stow
@@ -441,8 +431,6 @@ xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xclip
-xdg-desktop-portal
-xdg-desktop-portal-gtk
 xdg-user-dirs-gtk
 xdotool
 xf86-input-evdev
