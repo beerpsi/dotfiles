@@ -17,7 +17,7 @@ configuration {
   nord-blue-light: #88C0D0;
   nord-yellow: #EBCB8B;
 
-  border: 0;
+  border: 2;
   lines: 12;
   padding: 0;
   margin: 0;
@@ -25,7 +25,7 @@ configuration {
 }
 
 window {
-  width: 100%;
+  width: 33%;
   transparency: "real";
 }
 
@@ -34,7 +34,7 @@ mainbox {
 }
 
 listview {
-  columns: 3;
+  columns: 1;
   fixed-height: true;
   lines: 3;
 }
