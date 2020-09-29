@@ -65,7 +65,7 @@ abbr osu-lazer "DRI_PRIME=1 ~/Games/osu-lazer/osu.AppImage"
 
 # Abbreviations for config files (cf*)
 abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml ;and commit-if-diff"
-abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff"
+abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff; and source $HOME/.config/fish/config.fish"
 abbr cfi "$EDITOR $HOME/.config/i3/config ;and commit-if-diff"
 abbr cfn "$EDITOR $HOME/.config/neofetch/config.conf ;and commit-if-diff"
 abbr cfp "$EDITOR $HOME/.config/polybar/config ;and commit-if-diff"
