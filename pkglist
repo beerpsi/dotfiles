@@ -276,6 +276,7 @@ os-prober
 osu
 pacman-cleanup-hook
 pacman-contrib
+pamac-all
 pamixer
 parted
 patch
@@ -366,7 +367,6 @@ shaderc
 simplescreenrecorder
 sl
 smartmontools
-snapd-glib
 socat
 steam
 stfl
