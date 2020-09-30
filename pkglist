@@ -236,7 +236,6 @@ mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mlocate
-modemmanager
 mpv
 mpv-mpris
 mtools
