@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_among_2D_us:DRI_PRIME\x3d1\x20wine\x20\x7e/Games/Among\x2dUs/v2020\x2e9\x2e9s/Among\x5c\x20Us\x2eexe
-SETUVAR _fish_abbr_ardublockly:python3\x20\x7e/Downloads/git/ardublockly/setup\x2epy
+SETUVAR _fish_abbr_ardublockly:python3\x20\x7e/Downloads/git/ardublockly/start\x2epy
 SETUVAR _fish_abbr_cfa:nvim\x20/home/beerpsi/\x2econfig/alacritty/alacritty\x2eyml\x20\x3band\x20commit\x2dif\x2ddiff
 SETUVAR _fish_abbr_cfff:nvim\x20/home/beerpsi/dotfiles/firefox/\x2econfig/firefox/userChrome\x2ecss\x20\x3band\x20commit\x2dif\x2ddiff
 SETUVAR _fish_abbr_cffsh:nvim\x20/home/beerpsi/\x2econfig/fish/config\x2efish\x20\x3band\x20commit\x2dif\x2ddiff\x3b\x20and\x20source\x20/home/beerpsi/\x2econfig/fish/config\x2efish
