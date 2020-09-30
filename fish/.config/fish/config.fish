@@ -63,6 +63,7 @@ abbr np "playerctl metadata --format \"{{ artist }} - {{ title }}\""
 abbr among-us "DRI_PRIME=1 wine ~/Games/Among-Us/v2020.9.9s/Among\ Us.exe"
 abbr osu-lazer "DRI_PRIME=1 ~/Games/osu-lazer/osu.AppImage"
 
+abbr ardublockly "python3 ~/Downloads/git/ardublockly/setup.py"
 # Abbreviations for config files (cf*)
 abbr cfa "$EDITOR $HOME/.config/alacritty/alacritty.yml ;and commit-if-diff"
 abbr cffsh "$EDITOR $HOME/.config/fish/config.fish ;and commit-if-diff; and source $HOME/.config/fish/config.fish"
