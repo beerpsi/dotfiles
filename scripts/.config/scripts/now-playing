@@ -1,2 +1,2 @@
 #!/bin/bash
-playerctl metadata --format "{{ artist }} - {{ title }}"
+cat <(echo "") <(playerctl metadata --format "{{ artist }} - {{ title }}")
