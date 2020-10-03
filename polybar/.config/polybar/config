@@ -30,6 +30,7 @@ modules-right = battery volume backlight wireless-network wired-network date-wit
 monitor = ${env:MONITOR:}
 width = 100%
 height = 34
+bottom = true
 
 background = #ff2e3440
 foreground = #ccffffff
@@ -52,6 +53,7 @@ font-3 = Termsynu:size=8:antialias=false;1
 
 modules-left = now-playing
 modules-right = openweathermap cpu memory
+
 [module/backlight]
 type = internal/xbacklight
 format = <ramp> <label> 
