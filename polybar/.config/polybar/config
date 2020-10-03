@@ -11,8 +11,8 @@ line-color = #00000000
 line-size = 2
 
 ; If you want tray icons to be on the top bar use this.
-tray-position=right
-tray-padding=2
+;tray-position=right
+;tray-padding=2
 
 spacing = 2
 padding-right = 5
@@ -39,8 +39,8 @@ line-color = #00000000
 line-size = 2
 
 ; If you want tray icons to be on the top bar use this.
-;tray-position=right
-;tray-padding=2
+tray-position=right
+tray-padding=2
 
 spacing = 2
 padding-right = 5
