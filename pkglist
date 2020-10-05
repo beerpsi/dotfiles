@@ -382,6 +382,8 @@ sysfsutils
 tcpdump
 terminal-parrot
 terminus-font
+tesseract
+tesseract-data-vie
 texinfo
 thunar
 thunar-volman
