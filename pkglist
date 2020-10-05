@@ -383,6 +383,7 @@ tcpdump
 terminal-parrot
 terminus-font
 tesseract
+tesseract-data-eng
 tesseract-data-vie
 texinfo
 thunar
@@ -401,6 +402,7 @@ ttf-croscore
 ttf-dejavu
 ttf-liberation
 ttf-opensans
+ttf-roboto-mono
 ttf-ubuntu-font-family
 ttf-wps-fonts
 tumbler
