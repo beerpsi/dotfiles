@@ -241,6 +241,7 @@ mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mlocate
+mons
 mpv
 mpv-mpris
 mtools
