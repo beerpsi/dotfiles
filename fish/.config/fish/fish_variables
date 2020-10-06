@@ -17,6 +17,7 @@ SETUVAR _fish_abbr_d:doas
 SETUVAR _fish_abbr_do:doas\x20\x2d\x2d
 SETUVAR _fish_abbr_doas_2D_:doas\x20\x2d\x2d
 SETUVAR _fish_abbr_edit:nvim
+SETUVAR _fish_abbr_external_2D_monitor:xrandr\x20\x2d\x2doutput\x20HDMI1\x20\x2d\x2dscale\x200\x2e711x0\x2e711\x20\x2d\x2dsame\x2das\x20eDP1
 SETUVAR _fish_abbr_hibernate:zzz\x20\x2dZ
 SETUVAR _fish_abbr_idle:zzz\x20\x2dS
 SETUVAR _fish_abbr_la:ls\x20\x2dlhA
