@@ -172,11 +172,13 @@ jp2a
 jq
 jsoncpp
 leafpad
+lib32-libpng12
 lib32-libpulse
 lib32-libxcomposite
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libatomic_ops
+libclc
 libconfig
 libdvbpsi
 libdvdcss
@@ -191,6 +193,7 @@ libmicrodns
 libmpdclient
 libopenraw
 libplacebo
+libpng12
 libpwquality
 libratbag
 libressl
@@ -273,6 +276,7 @@ ntp
 obs-studio
 ocl-icd
 oniguruma
+opencl-mesa
 openconnect
 opendesktop-fonts
 opendoas
@@ -349,6 +353,7 @@ python-yaml
 python2-psutil
 python2-yaml
 qt5-svg
+qt5-websockets
 qt5-x11extras
 r8168
 rclone
