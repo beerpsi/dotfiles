@@ -6,7 +6,7 @@ get_icon(){
         *)       icon="";
     esac
     
-    echo "   $icon   "
+    echo "   $icon  "
 }
 
 
