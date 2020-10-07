@@ -9,7 +9,7 @@ get_icon(){
     echo "   $icon  "
 }
 
-if [[ "$(playerctl status)" = "No players found" || "$(playerctl metadata") = "No player could handle this command" ]]; then
+if [[ "$(playerctl status)" = "No players found" || "$(playerctl metadata)" = "No player could handle this command" ]]; then
     echo "     "
     exit 0
 fi
