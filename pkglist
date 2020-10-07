@@ -184,6 +184,7 @@ libdvbpsi
 libdvdcss
 libebml
 libev
+libgit2
 libgsf
 libgtop
 libimagequant
