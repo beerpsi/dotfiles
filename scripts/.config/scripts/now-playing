@@ -10,4 +10,4 @@ get_icon(){
 }
 
 
-cat <(get_icon $(playerctl status)) <(playerctl metadata --format "{{ artist }} - {{ title }}") | tr "\n" " "
+cat <(get_icon $(playerctl status)) <(playerctl metadata --format "{{ artist }} - {{ title }} \({{ duration(mpris:length) }}") | tr "\n" " "
