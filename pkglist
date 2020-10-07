@@ -184,7 +184,6 @@ libdvbpsi
 libdvdcss
 libebml
 libev
-libgit2
 libgsf
 libgtop
 libimagequant
@@ -245,6 +244,7 @@ mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mlocate
 mons
+mprime-bin
 mpv
 mpv-mpris
 mtools
