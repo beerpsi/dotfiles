@@ -9,5 +9,9 @@ get_icon(){
     echo "   $icon  "
 }
 
+if [[ "$(playerctl status)" = "No players found" || "$(playerctl metadata") = "No player could handle this command" ]]; then
+    echo "     "
+    exit 0
+fi
 
 cat <(get_icon $(playerctl status)) <(playerctl metadata --format "{{ artist }} - {{ title }}") <(playerctl position --format "({{ duration(position) }}/" | tr -d "[:space:]") <(playerctl metadata --format "{{ duration(mpris:length) }})") | tr "\n" " "
