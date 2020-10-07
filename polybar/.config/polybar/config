@@ -24,7 +24,7 @@ font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
 modules-left = now-playing
-modules-right = battery volume backlight wireless-network wired-network date-with-lunar powermenu
+modules-right = openweathermap battery volume backlight wireless-network wired-network date-with-lunar powermenu
 
 [bar/bottom]
 monitor = ${env:MONITOR:}
@@ -52,7 +52,7 @@ font-2 = MaterialIcons:size=10;3
 font-3 = Termsynu:size=8:antialias=false;1
 
 modules-left = i3 title
-modules-right = openweathermap cpu memory
+modules-right = cpu memory
 
 [module/backlight]
 type = internal/xbacklight
