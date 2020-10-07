@@ -1,2 +1,13 @@
 #!/bin/bash
-cat <(echo "      ") <(playerctl status --format "({{ status }})") <(playerctl metadata --format "{{ artist }} - {{ title }}") | tr "\n" " "
+get_icon(){
+    case $1 in
+        Playing) icon="";;
+        Paused)  icon="";;
+        *)       icon="";
+    esac
+    
+    echo "   $icon   "
+}
+
+
+cat <(get_icon playerctl status) <(playerctl metadata --format "{{ artist }} - {{ title }}") | tr "\n" " "
