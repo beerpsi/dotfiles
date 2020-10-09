@@ -1,5 +1,6 @@
 [1m[33m ->[0m[0m Avoid running yay as root/sudo.
 accountsservice
+acpi
 acpid
 adwaita-icon-theme
 alacritty
@@ -162,6 +163,7 @@ hwinfo
 i3-gaps
 i3-layout-manager-git
 i3lock-color
+i8kutils
 idevicerestore
 imake
 inetutils
