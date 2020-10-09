@@ -83,6 +83,7 @@ expect
 f2fs-tools
 fakeroot
 fancontrol-gui
+fancontrol-kcm
 fcitx
 fcitx-configtool
 fcitx-qt5
