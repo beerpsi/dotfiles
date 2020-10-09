@@ -184,6 +184,7 @@ libdvbpsi
 libdvdcss
 libebml
 libev
+libgdiplus
 libgsf
 libgtop
 libimagequant
@@ -214,6 +215,7 @@ linux-firmware
 linux-headers
 linux-wifi-hotspot
 linux-zen
+linux-zen-headers
 llvm
 logrotate
 lolcat
@@ -244,6 +246,7 @@ mkinitcpio-busybox
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mlocate
+mono
 mons
 mprime-bin
 mpv
@@ -252,6 +255,7 @@ mtools
 mupdf
 nasm
 nbd
+nbfc
 ncdu
 ndisc6
 neofetch
@@ -274,6 +278,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
+nuget
 obs-studio
 ocl-icd
 onefetch
