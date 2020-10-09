@@ -80,6 +80,7 @@ ethtool
 evolution
 exfat-utils
 expect
+extra-cmake-modules
 f2fs-tools
 fakeroot
 fcitx
