@@ -207,7 +207,6 @@ libtommath
 libtool
 libtorrent-rasterbar
 libuninameslist
-liburcu
 libusb-compat
 libwnck3
 libxkbcommon-x11
@@ -227,7 +226,6 @@ lolcat
 lsb-release
 lshw
 lsscsi
-lttng-ust
 lua
 lua52
 lua53
@@ -285,7 +283,6 @@ nss-mdns
 ntfs-3g
 ntp
 nuget
-numactl
 obs-studio
 ocl-icd
 onefetch
@@ -329,6 +326,7 @@ polybar-git
 poppler-glib
 potato
 powerpill
+powershell-bin
 ppp
 pptpclient
 proton-ge-custom-bin
